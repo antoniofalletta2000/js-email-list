@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Email List</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body>
-    
-    <ul id="email_list">
-        
-       
-    </ul>
-    
-    <button id="btn" type="click">Refresh</button>
+
+<body class="bg-light">
+
+    <div class="container text-center">
+        <h1 class="mb-5 bg-warning mt-3 rounded p-1">EMAIL@GENERATOR</h1>
+        <ul id="email_list" class="fw-bolder bg-info bg-opacity-10 rounded">
 
 
+        </ul>
+
+        <button class="fw-bolder mt-5 border rounded bg-warning p-3" id="btn" type="click">Refresh</button>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./main.js"></script>
 </body>
+
 </html>
